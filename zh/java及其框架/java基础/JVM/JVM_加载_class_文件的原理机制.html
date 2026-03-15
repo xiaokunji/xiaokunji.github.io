@@ -7,7 +7,7 @@
  | 分类:  <ul class="post-categories-meta" style="display:inline"><a href="https://xiaokunji.com/zh/categories/java%E5%8F%8A%E5%85%B6%E6%A1%86%E6%9E%B6.html">java及其框架</a></ul><span id="busuanzi_container_page_pv"> | 访问: <span id="busuanzi_value_page_pv">1</span></span></div></header><div class="post-content"><p>JVM 中类的装载是由类加载器（ ClassLoader）和它的子类来实现的， Java 中的类加载器是一个重要的 Java 运行时系统组件，它负责在运行时查找和装入类文件中的类。</p><p>当 Java 程序需要使用某个类时， JVM 会确保这个类已经被加载、连接（验证、准备和解析）和初始化。类的加载是指把类的.class 文件中的数据读入到内存中，通常是创建一个字节数组读入.class 文件，然后产生与所加载类对应的 Class 对象。此时的类还不可用。</p><p>当类被加载后就进入连接阶段，这一阶段包括验证、准备（为静态变量分配内存并设置默认的初始值）和解析（将符号引用替换为直接引用）三个步骤。</p><p>最后 JVM 对类进行初始化，包括：</p><p>1)如果类存在直接的父类并且这个类还没有被初始化，那么就先初始化父类；</p><p>2)如果类中存在初始化语句，就依次执行这些初始化语句。</p></div><footer class="post-footer"><ul class="post-tags"><li><a href="https://xiaokunji.com/zh/tags/JVM.html">JVM</a></li><li><a href="https://xiaokunji.com/zh/tags/java%E5%8F%8A%E5%85%B6%E6%A1%86%E6%9E%B6.html">java及其框架</a></li></ul><nav class="paginav"><a class="prev" href="https://xiaokunji.com/zh/java%E5%8F%8A%E5%85%B6%E6%A1%86%E6%9E%B6/springBoot/jpa.html"><span class="title">« 上一页</span><br/><span>jpa</span></a>
 <a class="next" href="https://xiaokunji.com/zh/java%E5%8F%8A%E5%85%B6%E6%A1%86%E6%9E%B6/java%E5%9F%BA%E7%A1%80/JVM/JVM%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4.html"><span class="title">下一页 »</span><br/><span>jvm常用命令</span></a></nav></footer></article></main><script async="" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><footer class="footer"><span>Copyright
 ©
--2024
+-2026
 <a href="https://xiaokunji.com/zh/" style="color:#939393">米二</a>
 All Rights Reserved</span>
 <span id="busuanzi_container"><span class="fa fa-user">用户数:</span><span id="busuanzi_value_site_uv"></span>
