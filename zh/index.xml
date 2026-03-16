@@ -7,6 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language><atom:link href="https://xiaokunji.com/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>6. 构建Agent完成复杂任务</title>
+      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E6%9E%84%E5%BB%BAAgent%E5%AE%8C%E6%88%90%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1.html</link>
+      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E6%9E%84%E5%BB%BAAgent%E5%AE%8C%E6%88%90%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1.html</guid>
+      <description>0. 前言 既然答疑机器人对写作规范了如指掌，那么能不能试着让它辅助开发教育课程呢？ 让我们分析一下技术可行性。你会发现，机器人只能从内部知识库中获</description>
+    </item>
+    
+    <item>
       <title>1. 用大模型构建新人答疑机器人</title>
       <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E7%94%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%9E%84%E5%BB%BA%E6%96%B0%E4%BA%BA%E7%AD%94%E7%96%91%E6%9C%BA%E5%99%A8%E4%BA%BA.html</link>
       <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
@@ -2671,15 +2680,6 @@
       
       <guid>https://xiaokunji.com/zh/hadoop%E7%94%9F%E6%80%81%E5%9C%88/airflow/airflow.html</guid>
       <description>     </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E6%9E%84%E5%BB%BAAgent%E5%AE%8C%E6%88%90%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E6%9E%84%E5%BB%BAAgent%E5%AE%8C%E6%88%90%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1.html</guid>
-      <description>title: 6. 构建Agent完成复杂任务 date: 2026-03-16 lastmod: 2026-03-16 tags: [&amp;#39;大模型&amp;#39;,&amp;#39;提示词&amp;#39;,&amp;#39;agent&amp;#39;] categories: [&amp;#3</description>
     </item>
     
     

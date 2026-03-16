@@ -2,6 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E6%9E%84%E5%BB%BAAgent%E5%AE%8C%E6%88%90%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1.html</loc>
+    <lastmod>2026-03-17T01:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaokunji.com/zh/tags/agent.html</loc>
+    <lastmod>2026-03-17T01:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaokunji.com/zh/series.html</loc>
+    <lastmod>2026-03-17T01:20:15+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://xiaokunji.com/en/series.html"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://xiaokunji.com/zh/series.html"
+                />
+  </url><url>
+    <loc>https://xiaokunji.com/zh/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</loc>
+    <lastmod>2026-03-17T01:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaokunji.com/zh/series/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</loc>
+    <lastmod>2026-03-17T01:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaokunji.com/zh/categories/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</loc>
+    <lastmod>2026-03-17T01:20:15+08:00</lastmod>
+  </url><url>
+    <loc>https://xiaokunji.com/zh/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D.html</loc>
+    <lastmod>2026-03-17T01:20:15+08:00</lastmod>
+  </url><url>
     <loc>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E7%94%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%9E%84%E5%BB%BA%E6%96%B0%E4%BA%BA%E7%AD%94%E7%96%91%E6%9C%BA%E5%99%A8%E4%BA%BA.html</loc>
     <lastmod>2026-03-15T22:47:16+08:00</lastmod>
   </url><url>
@@ -20,39 +51,14 @@
     <loc>https://xiaokunji.com/zh/tags/RAG.html</loc>
     <lastmod>2026-03-17T01:19:02+08:00</lastmod>
   </url><url>
-    <loc>https://xiaokunji.com/zh/series.html</loc>
-    <lastmod>2026-03-17T01:19:02+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://xiaokunji.com/en/series.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://xiaokunji.com/zh/series.html"
-                />
-  </url><url>
     <loc>https://xiaokunji.com/zh/tags/temperature.html</loc>
     <lastmod>2026-03-15T22:47:16+08:00</lastmod>
-  </url><url>
-    <loc>https://xiaokunji.com/zh/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</loc>
-    <lastmod>2026-03-17T01:19:02+08:00</lastmod>
-  </url><url>
-    <loc>https://xiaokunji.com/zh/series/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</loc>
-    <lastmod>2026-03-17T01:19:02+08:00</lastmod>
-  </url><url>
-    <loc>https://xiaokunji.com/zh/categories/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</loc>
-    <lastmod>2026-03-17T01:19:02+08:00</lastmod>
   </url><url>
     <loc>https://xiaokunji.com/zh/tags/%E5%A4%9A%E8%BD%AE%E5%AF%B9%E8%AF%9D.html</loc>
     <lastmod>2026-03-15T22:47:16+08:00</lastmod>
   </url><url>
     <loc>https://xiaokunji.com/zh/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA.html</loc>
     <lastmod>2026-03-15T22:47:16+08:00</lastmod>
-  </url><url>
-    <loc>https://xiaokunji.com/zh/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D.html</loc>
-    <lastmod>2026-03-17T01:19:02+08:00</lastmod>
   </url><url>
     <loc>https://xiaokunji.com/zh/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%AF%84%E6%B5%8B.html</loc>
     <lastmod>2026-03-15T22:47:16+08:00</lastmod>
@@ -1244,9 +1250,6 @@
   </url><url>
     <loc>https://xiaokunji.com/zh/hadoop%E7%94%9F%E6%80%81%E5%9C%88/airflow/airflow.html</loc>
     <lastmod>2024-09-04T20:06:34+08:00</lastmod>
-  </url><url>
-    <loc>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E6%9E%84%E5%BB%BAAgent%E5%AE%8C%E6%88%90%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1.html</loc>
-    <lastmod>2026-03-17T01:19:02+08:00</lastmod>
   </url><url>
     <loc>https://xiaokunji.com/zh/archives.html</loc>
     <lastmod>2023-08-22T22:36:07+08:00</lastmod>
