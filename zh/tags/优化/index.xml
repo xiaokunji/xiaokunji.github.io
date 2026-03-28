@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>优化 on 米二</title>
+    <link>https://xiaokunji.com/zh/tags/%E4%BC%98%E5%8C%96.html</link>
+    <description>Recent content in 优化 on 米二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 15 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaokunji.com/zh/tags/%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>9. 大模型应用生产实践</title>
+      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E7%94%9F%E4%BA%A7%E5%AE%9E%E8%B7%B5.html</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E7%94%9F%E4%BA%A7%E5%AE%9E%E8%B7%B5.html</guid>
+      <description>1. 业务需求分析 业务需求分析是成功部署大模型的第一步。不同的业务场景对模型的功能性需求和非功能性需求差异巨大。如果业务场景不清晰，可能会导致以</description>
+    </item>
+    
+  </channel>
+</rss>

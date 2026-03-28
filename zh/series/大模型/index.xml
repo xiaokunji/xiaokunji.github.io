@@ -6,7 +6,16 @@
     <description>Recent content in 大模型 on 米二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaokunji.com/zh/series/%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://xiaokunji.com/zh/series/%E5%A4%A7%E6%A8%A1%E5%9E%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>7. 通过微调提升模型的准确度与效率</title>
+      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E9%80%9A%E8%BF%87%E5%BE%AE%E8%B0%83%E6%8F%90%E5%8D%87%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%87%86%E7%A1%AE%E5%BA%A6%E4%B8%8E%E6%95%88%E7%8E%87.html</link>
+      <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E9%80%9A%E8%BF%87%E5%BE%AE%E8%B0%83%E6%8F%90%E5%8D%87%E6%A8%A1%E5%9E%8B%E7%9A%84%E5%87%86%E7%A1%AE%E5%BA%A6%E4%B8%8E%E6%95%88%E7%8E%87.html</guid>
+      <description>前言 前面的课程中，介绍了如何搭建一个答疑机器人，并尝试通过优化提示词和构建RAG、扩展插件等方式提升其能力。不过你可能会发现，你一直在模型外</description>
+    </item>
+    
     <item>
       <title>6. 构建Agent完成复杂任务</title>
       <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E6%9E%84%E5%BB%BAAgent%E5%AE%8C%E6%88%90%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1.html</link>
@@ -59,6 +68,15 @@
       
       <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E4%BC%98%E5%8C%96RAG%E5%BA%94%E7%94%A8%E6%8F%90%E5%8D%87%E9%97%AE%E7%AD%94%E5%87%86%E7%A1%AE%E5%BA%A6md.html</guid>
       <description>你发现答疑机器人不能很好的回答「张伟是哪个部门的？」。因为公司有好几个张伟, 所以张伟相关的文档数量会很多 1. 初步优化检索效果 正如前言提到的，你</description>
+    </item>
+    
+    <item>
+      <title>9. 大模型应用生产实践</title>
+      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E7%94%9F%E4%BA%A7%E5%AE%9E%E8%B7%B5.html</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E7%94%9F%E4%BA%A7%E5%AE%9E%E8%B7%B5.html</guid>
+      <description>1. 业务需求分析 业务需求分析是成功部署大模型的第一步。不同的业务场景对模型的功能性需求和非功能性需求差异巨大。如果业务场景不清晰，可能会导致以</description>
     </item>
     
     <item>
