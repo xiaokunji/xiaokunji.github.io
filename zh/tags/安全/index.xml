@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>安全 on 米二</title>
+    <link>https://xiaokunji.com/zh/tags/%E5%AE%89%E5%85%A8.html</link>
+    <description>Recent content in 安全 on 米二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 29 Mar 2026 14:44:17 +0000</lastBuildDate><atom:link href="https://xiaokunji.com/zh/tags/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10. 大模型应用安全合规</title>
+      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E5%90%88%E8%A7%84.html</link>
+      <pubDate>Sun, 29 Mar 2026 14:44:17 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E5%90%88%E8%A7%84.html</guid>
+      <description># 前言 你将答疑机器人开放给内部员工测试，新问题很快出现了。你发现有人在诱导机器人讲述涉黄、涉暴内容，或发表政治评论。这些输入如不加以防范，很</description>
+    </item>
+    
+  </channel>
+</rss>
