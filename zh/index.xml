@@ -7,6 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language><atom:link href="https://xiaokunji.com/zh/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>电脑端codex模型订阅指南(安卓)</title>
+      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E5%87%86%E5%A4%87/codex%E6%A8%A1%E5%9E%8B%E8%AE%A2%E9%98%85%E6%8C%87%E5%8D%97%E5%AE%89%E5%8D%93.html</link>
+      <pubDate>Sun, 31 May 2026 07:13:29 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E5%87%86%E5%A4%87/codex%E6%A8%A1%E5%9E%8B%E8%AE%A2%E9%98%85%E6%8C%87%E5%8D%97%E5%AE%89%E5%8D%93.html</guid>
+      <description>总结流程: 申请号codex账户(和chatGPT账户互通) 完成订阅充值: 需要用到手机版的chatGPT/ google Play/ 翻墙能力 安装并配置好codex 需</description>
+    </item>
+    
+    <item>
+      <title>1. agent主体</title>
+      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/Agent%E5%AD%A6%E4%B9%A0/agent-%E4%B8%BB%E4%BD%93.html</link>
+      <pubDate>Sun, 17 May 2026 09:36:37 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/Agent%E5%AD%A6%E4%B9%A0/agent-%E4%B8%BB%E4%BD%93.html</guid>
+      <description>📚 第一阶段：基础理论（Foundation） 1. 什么是 Agent？ Agent（智能体）是一种能够自主感知环境、进行推理决策并执行行动以实现特定</description>
+    </item>
+    
+    <item>
+      <title>0. 核心概念与关系</title>
+      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/Agent%E5%AD%A6%E4%B9%A0/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%85%B3%E7%B3%BB.html</link>
+      <pubDate>Sun, 17 May 2026 08:50:56 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/Agent%E5%AD%A6%E4%B9%A0/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%85%B3%E7%B3%BB.html</guid>
+      <description>1. 概念定义 概念 定义 作用与特点 Agent 智能代理，基于大语言模型构建的自主系统，能够感知环境、进行推理、规划并执行任务 核心主体，具备目标导向的行为能力</description>
+    </item>
+    
+    <item>
       <title>10. 大模型应用安全合规</title>
       <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%BA%94%E7%94%A8%E5%AE%89%E5%85%A8%E5%90%88%E8%A7%84.html</link>
       <pubDate>Sun, 29 Mar 2026 14:44:17 +0000</pubDate>

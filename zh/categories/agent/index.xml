@@ -2,11 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>agent on 米二</title>
-    <link>https://xiaokunji.com/zh/tags/agent.html</link>
+    <link>https://xiaokunji.com/zh/categories/agent.html</link>
     <description>Recent content in agent on 米二</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 17 May 2026 09:36:37 +0000</lastBuildDate><atom:link href="https://xiaokunji.com/zh/tags/agent/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 May 2026 07:13:29 +0000</lastBuildDate><atom:link href="https://xiaokunji.com/zh/categories/agent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电脑端codex模型订阅指南(安卓)</title>
+      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E5%87%86%E5%A4%87/codex%E6%A8%A1%E5%9E%8B%E8%AE%A2%E9%98%85%E6%8C%87%E5%8D%97%E5%AE%89%E5%8D%93.html</link>
+      <pubDate>Sun, 31 May 2026 07:13:29 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E5%87%86%E5%A4%87/codex%E6%A8%A1%E5%9E%8B%E8%AE%A2%E9%98%85%E6%8C%87%E5%8D%97%E5%AE%89%E5%8D%93.html</guid>
+      <description>总结流程: 申请号codex账户(和chatGPT账户互通) 完成订阅充值: 需要用到手机版的chatGPT/ google Play/ 翻墙能力 安装并配置好codex 需</description>
+    </item>
+    
     <item>
       <title>1. agent主体</title>
       <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/Agent%E5%AD%A6%E4%B9%A0/agent-%E4%B8%BB%E4%BD%93.html</link>
@@ -23,15 +32,6 @@
       
       <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/Agent%E5%AD%A6%E4%B9%A0/%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5%E4%B8%8E%E5%85%B3%E7%B3%BB.html</guid>
       <description>1. 概念定义 概念 定义 作用与特点 Agent 智能代理，基于大语言模型构建的自主系统，能够感知环境、进行推理、规划并执行任务 核心主体，具备目标导向的行为能力</description>
-    </item>
-    
-    <item>
-      <title>6. 构建Agent完成复杂任务</title>
-      <link>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E6%9E%84%E5%BB%BAAgent%E5%AE%8C%E6%88%90%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1.html</link>
-      <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://xiaokunji.com/zh/%E5%A4%A7%E6%A8%A1%E5%9E%8B/%E6%95%99%E7%A8%8B/%E6%9E%84%E5%BB%BAAgent%E5%AE%8C%E6%88%90%E5%A4%8D%E6%9D%82%E4%BB%BB%E5%8A%A1.html</guid>
-      <description>0. 前言 既然答疑机器人对写作规范了如指掌，那么能不能试着让它辅助开发教育课程呢？ 让我们分析一下技术可行性。你会发现，机器人只能从内部知识库中获</description>
     </item>
     
   </channel>
