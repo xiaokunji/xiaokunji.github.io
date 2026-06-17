@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>建站 on 米二</title>
+    <link>https://xiaokunji.com/zh/categories/%E5%BB%BA%E7%AB%99.html</link>
+    <description>Recent content in 建站 on 米二</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Wed, 17 Jun 2026 16:16:30 +0000</lastBuildDate><atom:link href="https://xiaokunji.com/zh/categories/%E5%BB%BA%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>增加AI机器人</title>
+      <link>https://xiaokunji.com/zh/%E7%BB%BC%E5%90%88/hugo/%E5%A2%9E%E5%8A%A0AI%E6%9C%BA%E5%99%A8%E4%BA%BA.html</link>
+      <pubDate>Wed, 17 Jun 2026 16:16:30 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/%E7%BB%BC%E5%90%88/hugo/%E5%A2%9E%E5%8A%A0AI%E6%9C%BA%E5%99%A8%E4%BA%BA.html</guid>
+      <description>在hugo上增加AI机器人, AI助手</description>
+    </item>
+    
+  </channel>
+</rss>
