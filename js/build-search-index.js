@@ -351,38 +351,13 @@ function ensureMaxChunkSize(text, maxSize) {
 
 /**
  * 扫描所有需要处理的文件
- * @param {Object|null} changedFiles - 变更文件对象，包含added、modified、deleted数组，如果为null则扫描所有文件
+ * @param {Object} changedFiles - 变更文件对象，包含added、modified、deleted数组
  * @returns {Array} - 需要处理的文件信息数组
  */
 function scanAllFiles(changedFiles) {
   const files = [];
   
-  // 如果没有提供变更文件列表，扫描所有文件
-  if (!changedFiles) {
-    function walkDir(dir) {
-      const items = fs.readdirSync(dir);
-      for (const item of items) {
-        const fullPath = path.join(dir, item);
-        if (fs.statSync(fullPath).isDirectory()) {
-          walkDir(fullPath);
-        } else if (item.endsWith('.md')) {
-          const relativePath = path.relative(CONTENT_DIR, fullPath).replace(/\\/g, '/');
-          const raw = fs.readFileSync(fullPath, 'utf-8');
-          files.push({
-            fullPath,
-            relativePath,
-            raw,
-            status: 'all' // 标记为全量扫描
-          });
-        }
-      }
-    }
-    
-    walkDir(CONTENT_DIR);
-    return files;
-  }
-  
-  // 如果有变更文件列表，只处理新增和修改的文件
+  // 只处理新增和修改的文件
   const filesToProcess = new Set([...changedFiles.added, ...changedFiles.modified]);
   
   console.log(`📋 需要处理的文件数: ${filesToProcess.size}`);
@@ -459,6 +434,13 @@ async function main() {
   // 步骤1: 解析变更文件列表
   const changedFiles = parseChangedFiles();
   
+  // 如果没有提供变更文件列表，直接退出
+  if (!changedFiles) {
+    console.log('⚠️  未提供变更文件列表，跳过向量数据处理');
+    console.log('💡 提示: 请使用 --changed-files=<path> 参数指定变更文件JSON路径');
+    process.exit(0);
+  }
+  
   // 步骤2: 加载缓存和旧索引
   const cache = loadCache();
   const oldIndexByUrl = loadOldIndexByUrl();
@@ -466,76 +448,42 @@ async function main() {
   // 步骤3: 扫描文件（根据是否有变更列表决定扫描范围）
   const filesToProcess = scanAllFiles(changedFiles);
   
-  if (changedFiles) {
-    console.log(`📊 处理 ${filesToProcess.length} 个变更文件\n`);
-  } else {
-    console.log(`📊 共扫描到 ${filesToProcess.length} 个Markdown文件\n`);
-  }
+  console.log(`📊 处理 ${filesToProcess.length} 个变更文件\n`);
   
   // 步骤4: 分类文件状态
   const filesToReuse = [];
   
-  // 如果没有提供变更文件列表，需要对比缓存来确定哪些文件可以复用
-  if (!changedFiles) {
-    // 获取所有现存文件路径
-    const allCurrentFilePaths = getAllFilePaths();
-    
-    // 遍历缓存中的所有文件
-    Object.keys(cache).forEach(cachedPath => {
-      // 如果文件仍然存在且不在需处理列表中，可以复用
-      if (allCurrentFilePaths.has(cachedPath) && !filesToProcess.some(f => f.relativePath === cachedPath)) {
-        const url = `/zh/${cachedPath.replace(/\\/g, '/').replace(/\.md$/, '.html')}/`;
-        if (oldIndexByUrl[url]) {
-          filesToReuse.push({
-            relativePath: cachedPath,
-            url,
-            oldEntries: oldIndexByUrl[url]
-          });
-        }
-      }
-    });
-    
-    // 检查是否有删除的文件（在缓存中存在但当前不存在）
-    const deletedPaths = Object.keys(cache).filter(cachedPath => !allCurrentFilePaths.has(cachedPath));
-    if (deletedPaths.length > 0) {
-      console.log(`🗑️  检测到 ${deletedPaths.length} 个已删除的文档，将从索引中移除`);
-      console.log(`   删除文件:`, deletedPaths.slice(0, 10).join(', '), deletedPaths.length > 10 ? '...' : '');
-    }
-  } else {
-    // 如果有变更文件列表，直接使用提供的删除文件列表
-    const deletedPaths = changedFiles.deleted;
-    if (deletedPaths.length > 0) {
-      console.log(`🗑️  检测到 ${deletedPaths.length} 个已删除的文档，将从索引中移除`);
-      console.log(`   删除文件:`, deletedPaths.slice(0, 10).join(', '), deletedPaths.length > 10 ? '...' : '');
-    }
-    
-    // 对于未变更的文件，从缓存中复用
-    Object.keys(cache).forEach(cachedPath => {
-      // 如果文件不在新增、修改、删除列表中，可以复用
-      const isInChangedList = 
-        changedFiles.added.includes(cachedPath) || 
-        changedFiles.modified.includes(cachedPath) || 
-        changedFiles.deleted.includes(cachedPath);
-      
-      if (!isInChangedList) {
-        const url = `/zh/${cachedPath.replace(/\\/g, '/').replace(/\.md$/, '.html')}/`;
-        if (oldIndexByUrl[url]) {
-          filesToReuse.push({
-            relativePath: cachedPath,
-            url,
-            oldEntries: oldIndexByUrl[url]
-          });
-        }
-      }
-    });
+  // 直接使用提供的删除文件列表
+  const deletedPaths = changedFiles.deleted;
+  if (deletedPaths.length > 0) {
+    console.log(`🗑️  检测到 ${deletedPaths.length} 个已删除的文档，将从索引中移除`);
+    console.log(`   删除文件:`, deletedPaths.slice(0, 10).join(', '), deletedPaths.length > 10 ? '...' : '');
   }
+  
+  // 对于未变更的文件，从缓存中复用
+  Object.keys(cache).forEach(cachedPath => {
+    // 如果文件不在新增、修改、删除列表中，可以复用
+    const isInChangedList = 
+      changedFiles.added.includes(cachedPath) || 
+      changedFiles.modified.includes(cachedPath) || 
+      changedFiles.deleted.includes(cachedPath);
+    
+    if (!isInChangedList) {
+      const url = `/zh/${cachedPath.replace(/\\/g, '/').replace(/\.md$/, '.html')}/`;
+      if (oldIndexByUrl[url]) {
+        filesToReuse.push({
+          relativePath: cachedPath,
+          url,
+          oldEntries: oldIndexByUrl[url]
+        });
+      }
+    }
+  });
   
   console.log(`\n📋 文件状态统计:`);
   console.log(`   - 需重新处理: ${filesToProcess.length} 个文件`);
   console.log(`   - 可复用向量: ${filesToReuse.length} 个文件`);
-  if (changedFiles) {
-    console.log(`   - 已删除文件: ${changedFiles.deleted.length} 个文件`);
-  }
+  console.log(`   - 已删除文件: ${changedFiles.deleted.length} 个文件`);
   console.log();
   
   // 步骤5: 处理需要重新处理的文件
@@ -617,8 +565,7 @@ async function main() {
   console.log('\n📊 构建统计:');
   console.log(`   - 处理文件: ${filesToProcess.length} 个`);
   console.log(`   - 复用向量: ${filesToReuse.length} 个文件`);
-  const deletedCount = changedFiles ? changedFiles.deleted.length : Object.keys(cache).filter(cachedPath => !getAllFilePaths().has(cachedPath)).length;
-  console.log(`   - 删除文档: ${deletedCount} 个文件`);
+  console.log(`   - 删除文档: ${changedFiles.deleted.length} 个文件`);
   console.log(`   - 总段落数: ${allEntries.length}`);
   console.log(`   - API调用批次: ${Math.ceil(processedCount / BATCH_SIZE)} 次`);
   
@@ -629,5 +576,17 @@ main().catch(error => {
   console.error('❌ 构建失败:', error);
   process.exit(1);
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
 
