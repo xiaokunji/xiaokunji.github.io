@@ -7,6 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language><atom:link href="https://xiaokunji.com/zh/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>agent</title>
+      <link>https://xiaokunji.com/zh/tags/agent.html</link>
+      <pubDate>Sun, 28 Jun 2026 15:30:12 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/tags/agent.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>大模型</title>
+      <link>https://xiaokunji.com/zh/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</link>
+      <pubDate>Sun, 28 Jun 2026 15:30:12 +0000</pubDate>
+      
+      <guid>https://xiaokunji.com/zh/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>博客</title>
       <link>https://xiaokunji.com/zh/tags/%E5%8D%9A%E5%AE%A2.html</link>
       <pubDate>Wed, 17 Jun 2026 16:16:30 +0000</pubDate>
@@ -39,24 +57,6 @@
       <pubDate>Sun, 31 May 2026 07:13:29 +0000</pubDate>
       
       <guid>https://xiaokunji.com/zh/tags/codex.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>agent</title>
-      <link>https://xiaokunji.com/zh/tags/agent.html</link>
-      <pubDate>Sun, 17 May 2026 09:36:37 +0000</pubDate>
-      
-      <guid>https://xiaokunji.com/zh/tags/agent.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>大模型</title>
-      <link>https://xiaokunji.com/zh/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</link>
-      <pubDate>Sun, 17 May 2026 08:50:56 +0000</pubDate>
-      
-      <guid>https://xiaokunji.com/zh/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B.html</guid>
       <description></description>
     </item>
     
